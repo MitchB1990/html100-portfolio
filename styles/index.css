@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Poppins', Georgia, Times, serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 500%;
+    line-height: 1;
+    text-shadow: 1px 1px 1px #ccc
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', Georgia, Times, serif;
+    font-weight: 900;
+    font-size: 100%;
+    line-height: 1.5;
+}
+p, div {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+body {
+    background: url(images/cream_dust.png) repeat 0 0;
+}
+
+img {
+  width: 50%;
+}
+
+.div-out {
+    box-shadow: 0 0 1em 1em #ccc;
+}
