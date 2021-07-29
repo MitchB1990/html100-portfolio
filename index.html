@@ -6,29 +6,38 @@
           <link rel="stylesheet" type="text/css" href="styles/index.css">
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
           <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
           <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
           <nav>
-            <a href="index.html">
-              Home
-            </a>
-            <br />
-            <a href="about.html">
-              About
-            </a>
-            <br />
-            <a href="#">
-              Nav 3
-            </a>
-            <br />
+            <ul class="menu">
+              <li class="logo"><a href="#">Mitch Barchi </a></li>
+              <li class="item"><a href="#">Home</a></li>
+              <li class="item"><a href="#">About</a></li>
+              <li class="item has-submenu">
+                <a tabindex="0">Services</a>
+                <ul class="submenu">
+                  <li class="subitem"><a href="#">Design</a></li>
+                  <li class="subitem"><a href="#">Photography</a></li>
+                  <li class="subitem"><a href="#">SEO</a></li>
+                </ul>
+              </li>
+              <li class="item"><a href="#">Blog</a></li>
+              <li class="item"><a href="#">Contact</a>
+              </li>
+              <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
           </nav>
         </header>
-        <section id="main">
-          <article class="flex-center">
+        <div id="main">
+          <div class="flex-center">
             <h1>Portfolio</h1>
+            <br />
+          </div>
+          <div class="flex-center">
             <article>
               <a href="https://github.com/MitchB1990/semantic-elements">
                 <h3>Assignment 1: Semantic Elements</h3>
@@ -48,9 +57,10 @@
               </a>
             </article>
           </article>
-        </section>
+        </div>
         <footer class="flex-center">
         <p>&#169; 2021 Mitch Barchi</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
