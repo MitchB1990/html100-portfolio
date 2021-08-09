@@ -203,6 +203,44 @@ body {
     margin: 0;
 }
 
+div.thumbcon {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+a.neon {
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+transition: all 0.5s;
+color: #fff;
+-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+-moz-animation: neon1 1.5s ease-in-out infinite alternate;
+animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+/*glow for webkit*/
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 25px #ff1177, 0 0 30px #ff1177, 0 0 35px #ff1177, 0 0 40px #ff1177;
+  }
+  to {
+    text-shadow: 0 0 0px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff1177,
+      0 0 20px #ff1177, 0 0 30px #ff1177, 0 0 45px #ff1177, 0 0 50px #ff1177;
+  }
+}
+
+.item:hover {
+      transition: opacity .25s ease-in-out;
+      opacity: 0.5;
+      }
+
+.thumb:hover {
+      transition: opacity .25s ease-in-out;
+      opacity: 0.5;
+      }
+
 .h1-out {
       font-family: 'Poppins', Georgia, Times, serif;
       font-weight: 900;
