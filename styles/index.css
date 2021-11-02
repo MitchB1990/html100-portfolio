@@ -180,6 +180,11 @@ h1 {
     text-shadow: 1px 1px 1px #ccc
 }
 
+.subsection {
+  text-align: center;
+  margin: 0;
+}
+
 h2, h3, h4, h5, h6 {
     font-family: 'Poppins', Georgia, Times, serif;
     font-weight: 900;

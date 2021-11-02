@@ -1,0 +1,21 @@
+.three-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.three-grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.four-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.four-grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
